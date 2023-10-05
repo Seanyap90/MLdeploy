@@ -18,8 +18,8 @@ class_names = ['person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'tra
 def get_video_url():
     kvs = boto3.client(
             'kinesisvideo',
-            aws_access_key_id='AKIA34T4FHNZNKRTV2HJ',
-            aws_secret_access_key='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'
+            aws_access_key_id='',
+            aws_secret_access_key=''
     )
 
     STREAM_NAME = "camera_1"
@@ -31,8 +31,8 @@ def get_video_url():
 
     kvam = boto3.client(
         "kinesis-video-archived-media", 
-        aws_access_key_id='AKIA34T4FHNZNKRTV2HJ',
-        aws_secret_access_key='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',
+        aws_access_key_id='',
+        aws_secret_access_key='',
         endpoint_url=endpoint)
     
     url = kvam.get_hls_streaming_session_url(
@@ -89,21 +89,21 @@ def processed_img(result_img, or_img, arr):
 def handler(event, context):
     
     stream_url = get_video_url()
-    bucket_name = 'kapdxmodel'
+    bucket_name = ''
     frame_key = '/tmp/captured-frame.jpg'
     pro_img_key = 'processed-frame.jpg'
 
     s3_client = boto3.client(
         's3',
-        aws_access_key_id='AKIA34T4FHNZNKRTV2HJ',
-        aws_secret_access_key='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'
+        aws_access_key_id='',
+        aws_secret_access_key=''
     )
 
     config = botocore.config.Config(read_timeout=500)
     runtime = boto3.client(
         'runtime.sagemaker', 
-        aws_access_key_id='AKIA34T4FHNZNKRTV2HJ',
-        aws_secret_access_key='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',
+        aws_access_key_id='',
+        aws_secret_access_key='',
         config=config)
 
     cap = cv2.VideoCapture(stream_url)
