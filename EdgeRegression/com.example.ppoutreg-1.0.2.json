@@ -1,0 +1,39 @@
+{
+    "RecipeFormatVersion": "2020-01-25",
+    "ComponentName": "com.example.ppoutreg",
+    "ComponentVersion": "1.0.2",
+    "ComponentType": "aws.greengrass.generic",
+    "ComponentDescription": "Regression inference component",
+    "ComponentPublisher": "Amazon",
+    "ComponentDependencies": {
+        "aws.greengrass.DockerApplicationManager": {
+            "VersionRequirement": ">=2.0.0 <2.1.0",
+            "DependencyType": "HARD"
+        },
+        "aws.greengrass.TokenExchangeService": {
+            "VersionRequirement": ">=2.0.0 <2.1.0",
+            "DependencyType": "HARD"
+        }
+    },
+    "Manifests": [
+        {
+            "Platform": {
+                "os": "all"
+            },
+            "Lifecycle": {
+                "Run": "docker run -v /home/user:/home/user your_ecr_uri/powerpred:latest python3 /app/inference.py"
+            },
+            "Artifacts": [
+                {
+                    "Uri": "docker:your_ecr_uri/powerplantpred:latest",
+                    "Unarchive": "NONE",
+                    "Permission": {
+                        "Read": "OWNER",
+                        "Execute": "NONE"
+                    }
+                }
+            ]
+        }
+    ],
+    "Lifecycle": {}
+}
