@@ -1,6 +1,6 @@
 {
     "RecipeFormatVersion": "2020-01-25",
-    "ComponentName": "com.example.ppoutreg",
+    "ComponentName": "com.example.<componentname>",
     "ComponentVersion": "1.0.2",
     "ComponentType": "aws.greengrass.generic",
     "ComponentDescription": "Regression inference component",
