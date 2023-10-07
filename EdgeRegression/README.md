@@ -2,7 +2,7 @@
 
 <h2>Solution Architecture</h2>
 
-<h2>ML model Creation</h2>
+<h2>ML Model Creation</h2>
 
 <h2>Docker image for ECR</h2>
 
