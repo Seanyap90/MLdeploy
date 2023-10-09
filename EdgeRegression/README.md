@@ -2,6 +2,8 @@
 
 <h2>Solution Architecture</h2>
 
+![ModeldeploymentonGreengrassdevice](https://github.com/Seanyap90/MLdeploy/assets/34641712/a18aa67f-29a1-478d-b77e-0c2a9a6605bb)
+
 <h2>ML Model Creation</h2>
 
 <h2>Docker image for ECR</h2>
