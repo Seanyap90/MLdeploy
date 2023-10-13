@@ -25,6 +25,8 @@
 
 <h2>Create inference endpoint via Sagemaker</h2>
 
+<p>Open a notebook instance on Sagemaker and run ObjD.ipynb to create an inference endpoint</p>
+
 <h2>Inference code (App.py) and corresponding docker image</h2>
 
 <h2>Create lambda function</h2>
