@@ -43,3 +43,4 @@ Log on to your AWS Management Console and create new repository in Amazon ECR an
 sudo usermod -aG docker ggc_user
 ````
 <p>Constantly access the logs on /greengrass folder to troubleshoot if failure of deployment arises.</p>
+<p>If you are running a virtual gateway, please run gendata.py on the background.  This code has to be executed outside Docker environment</p>
