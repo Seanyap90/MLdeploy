@@ -45,3 +45,8 @@
 
 <h2>Expanding this project</h2>
 
+<h4>Working with other AWS services for typical processes</h4>
+
+<h4>Scaling</h4>
+
+<h4>For edge applications</h4>
