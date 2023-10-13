@@ -46,9 +46,10 @@
 <p>Access AWS Lambda through the console and create a lmabda function out of the image created in Amazon ECR by selecting the container image option</p>
 
 <p>Once the function is created, please configure accordingly: </p>
+
 ![lambda_config](https://github.com/Seanyap90/MLdeploy/assets/34641712/4396b0bf-33d8-485d-8c7a-22d8e3b534f9)
 
-
+<p>and test the inference!</p>
 <h2>Expanding this project</h2>
 
 <h4>Working with other AWS services for typical processes</h4>
