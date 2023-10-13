@@ -21,7 +21,8 @@
 
 <h4>2. Device Configuration</h4>
 
-<p>Firstly please following the following instructions in this library: https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp</p>
+<p>Firstly please following the following instructions in this library: https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp. 
+ You would need to install gstreamer and V4L2 on your gateway device</p>
 
 <h2>Create inference endpoint via Sagemaker</h2>
 
