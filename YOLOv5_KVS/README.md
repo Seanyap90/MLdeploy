@@ -30,7 +30,14 @@
 <h4>2. Device Configuration</h4>
 
 <p>Firstly please following the following instructions in this library: https://github.com/awslabs/amazon-kinesis-video-streams-producer-sdk-cpp. 
- You would need to install gstreamer and V4L2 on your gateway device</p>
+ You would need to install gstreamer and V4L2 on your gateway device.</p>
+
+<p>Once set up, run the following command:</p>
+
+````
+gst-launch-1.0 v4l2src do-timestamp=TRUE device=/path/to/your/video/devices ! videoconvert ! video/x-raw,format=I420,width=640,height=480,framerate=30/1 ! x264enc  bframes=0 key-int-max=5 bitrate=500 ! video/x-h264,stream-format=avc,alignment=au,profile=baseline ! kvssink stream-name="your_cam_stream_kvs" storage-size=512 access-key="***" secret-key="****" aws-region="your-aws-region"
+````
+
 
 <h2>Create inference endpoint via Sagemaker</h2>
 
