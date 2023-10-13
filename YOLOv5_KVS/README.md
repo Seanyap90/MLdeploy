@@ -29,6 +29,9 @@
 
 <h2>Inference code (App.py) and corresponding docker image</h2>
 
+<p>Create the Dockerfile while putting app.py in the home directory your gateway (or local device).</p>
+<p>Then go to the management console and access Amazon ECR.  Create a private repository on ECR and follow the instructions to push the docker image from gateway to ECR.</p>
+
 <h2>Create lambda function</h2>
 
 <h2>Expanding this project</h2>
