@@ -8,10 +8,13 @@
 
 <p>In summary, this solution enables objection detection on captured frames from a video stream on Kinesis Video Streams.  As long as a device is able to be installed with a camera and Amazon Kinesis Video Streams Producer SDK for C/C++ library, its video stream can be used on KVS.</p>
 
+<h4>Hardware Requirements</h4>
+<p>1. Any web cam</p>
+<p>2. Interfacing hardware such as edge gateway</p>
+
 <h4>End Result</h4>
 
 ![inferenceresult](https://github.com/Seanyap90/MLdeploy/assets/34641712/4b0590f9-4ca2-40cc-a435-bfdc18dc9fe9)
-
 
 <h2>Setting up Kinesis Video Streams</h2>
 
