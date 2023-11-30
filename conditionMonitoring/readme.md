@@ -12,3 +12,7 @@ https://github.com/Seanyap90/MLdeploy/assets/34641712/8c78bd2b-5d84-4890-a60b-72
 
 
 <h2>Prospective System Design</h2>
+
+
+![Prospective System Design](https://github.com/Seanyap90/MLdeploy/assets/34641712/9264ce51-321e-4f8c-af3f-ba900ca60bdd)
+
