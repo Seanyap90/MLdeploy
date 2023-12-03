@@ -10,6 +10,13 @@
 https://github.com/Seanyap90/MLdeploy/assets/34641712/8c78bd2b-5d84-4890-a60b-7283505b4b87
 
 
+<h3>Version 1: Condition monitoring by setting hard thresholds</h3>
+
+
+https://github.com/Seanyap90/MLdeploy/assets/34641712/23a06b8f-23cb-46d9-ae25-6391f9f9fd18
+
+
+
 
 <h2>Prospective System Design</h2>
 
