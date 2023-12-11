@@ -13,8 +13,10 @@ https://github.com/Seanyap90/MLdeploy/assets/34641712/23a06b8f-23cb-46d9-ae25-63
 
 
 
-<h2>Prospective System Design</h2>
+<h2>ML Deployment Design Overview</h2>
+
+![ML inference system design](https://github.com/Seanyap90/MLdeploy/assets/34641712/bd9010f7-4b31-44ee-a372-d400b803026e)
 
 
-![Prospective System Design](https://github.com/Seanyap90/MLdeploy/assets/34641712/9264ce51-321e-4f8c-af3f-ba900ca60bdd)
+
 
