@@ -37,7 +37,8 @@ https://github.com/Seanyap90/MLdeploy/assets/34641712/1c6db1d8-919c-48db-a9cd-79
 
 <h2>ML Deployment Design Overview</h2>
 
-![ML inference system design](https://github.com/Seanyap90/MLdeploy/assets/34641712/bd9010f7-4b31-44ee-a372-d400b803026e)
+![ML inference system design](https://github.com/Seanyap90/MLdeploy/assets/34641712/10339341-1318-4eb5-aac2-a0fba4391556)
+
 
 <p>We have the following: </p>
 
