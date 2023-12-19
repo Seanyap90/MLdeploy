@@ -47,6 +47,8 @@ https://github.com/Seanyap90/MLdeploy/assets/34641712/1c6db1d8-919c-48db-a9cd-79
 - The usage of endpoints to communicate with the inference server
 - Usage of strategy pattern to design deployment infrastructure for ML inference.
 
+<h2>Frontend Overview</h2>
 
+![Front end condition monitoring UI](https://github.com/Seanyap90/MLdeploy/assets/34641712/9b62e1b9-a857-49d3-85f0-b998164c78ae)
 
 
