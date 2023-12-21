@@ -34,6 +34,14 @@ https://github.com/Seanyap90/MLdeploy/assets/34641712/1c6db1d8-919c-48db-a9cd-79
 
 <p>For version 1, a hard threshold, which is detection of zero DC power generation in daytime, is deployed to generate fault alerts.  In version 2, the linear regression model deployed created fault alerts for zero DC power generation and attention alerts for potentially failing inverters </p>
 
+<h3>Version 2.1: Non linear regression vs threshold for potential fault detection due to high temperature of solar panel</h3>
+
+
+
+https://github.com/Seanyap90/MLdeploy/assets/34641712/3ef53d81-715d-4596-8860-09e1c267b0f5
+
+
+
 
 <h2>ML Deployment Design Overview</h2>
 
