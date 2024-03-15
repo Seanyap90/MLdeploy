@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const request = require('request');
 
-const serverIP = '10.0.122.233'; // Replace 'YOUR_SERVER_IP' with your server's IP address
+const serverIP = 'YOUR_SERVER_IP'; // Replace 'YOUR_SERVER_IP' with your server's IP address
 const sendDataPort = 8080;
 const clientEventsPort = 5001;
 
@@ -25,7 +25,7 @@ function processQueue() {
 
         // Send data to Flask application asynchronously
         const options = {
-            url: `http://10.0.122.233:5000/api/models/nlr/predict`,
+            url: `http://<YOUR_SERVER_IP>:5000/api/models/nlr/predict`,
             method: 'POST',
             json: data
         };
