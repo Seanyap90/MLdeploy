@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c2c5cb;
+  color: #9e9ea4;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-areas:
+    'header'
+    'main';
+  height: 100vh;
+}
