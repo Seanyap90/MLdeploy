@@ -55,4 +55,4 @@ def predict(qualified_name):
 
 if __name__ == '__main__':
     load_model_startup()
-    app.run(host='10.0.122.233', port=5000, debug=True)
+    app.run(host='<YOUR-SERVER_IP>', port=5000, debug=True)
