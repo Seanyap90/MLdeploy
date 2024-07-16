@@ -15,7 +15,7 @@ https://www.kaggle.com/datasets/anikannal/solar-power-generation-data into a ful
   https://www.kaggle.com/code/paule404/eda-condition-monitoring-solar-power-plant
 </p>
 
-<p>This notebook deployed both threshold/rule based logic, linear and non linearregression to detect faults or failures of the inverters belonging to a solar panel.  The training of the regression models led to the use of residuals to determine faults, hence it led to my hypothesis that this allows granularity in condition monitoring.  Beyond hard thresholds for fault detection, other levels of alerts can be created to signify potential action for early intervention that could be crucial to maintain operational consistency.
+<p>This notebook deployed both threshold/rule based logic, linear and non linearregression to detect faults or failures of the inverters belonging to a solar panel.  The training of the regression models led to the use of residuals to determine faults, hence it led to my hypothesis that this allows granularity in condition monitoring or more importantly, proactive fault detection.  Beyond hard thresholds for fault detection, other levels of alerts can be created to signify potential action for early intervention that could be crucial to maintain operational consistency.
 
 We will be deploying the logic as well as the model to do inference on real time data.  The real time data will be simulated with data provided by the dataset. </p>
 
