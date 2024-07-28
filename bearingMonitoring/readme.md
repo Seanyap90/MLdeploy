@@ -19,6 +19,8 @@ From the raw accelerometer data in the FEMTO dataset, the signals are downsample
 
 <h3> Overall </h3>
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4M7ylEkJ4IY/0.jpg)](https://www.youtube.com/watch?v=4M7ylEkJ4IY)
+
 
 <h2> System Design </h2>
 
@@ -28,6 +30,7 @@ From the raw accelerometer data in the FEMTO dataset, the signals are downsample
 
 <h3> Detailed Architecture </h3>
 
-![end2endML_bearing_monitoring_detailed](https://github.com/user-attachments/assets/ca809828-9260-402e-9448-8aea7d266795)
+![Detail System Diagram](https://github.com/user-attachments/assets/0e6505d8-62b6-4224-899d-0e547448af97)
+
 
 
