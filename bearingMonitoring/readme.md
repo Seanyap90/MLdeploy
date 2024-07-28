@@ -22,3 +22,12 @@ From the raw accelerometer data in the FEMTO dataset, the signals are downsample
 
 <h2> System Design </h2>
 
+<h3> High Level Architecture </h3>
+
+![end2endML_bearing_monitoring_highlevel](https://github.com/user-attachments/assets/53182ef6-f049-4c13-8f5c-42ee46957ec4)
+
+<h3> Detailed Architecture </h3>
+
+![end2endML_bearing_monitoring_detailed](https://github.com/user-attachments/assets/ca809828-9260-402e-9448-8aea7d266795)
+
+
